@@ -155,7 +155,7 @@ a.col-:hover  {
   position: relative;
   margin:auto;
   margin-top: 50px;
-  width: 80%;
+  width: 95%;
   z-index: 3;
 }
 
@@ -209,6 +209,8 @@ li:hover{
 .logo{
   margin: auto;
   width: 100%;
+  position: relative;
+  margin: 5pt 0 0 0;
 }
 
 .logo img{
@@ -216,13 +218,31 @@ li:hover{
     margin: auto;
 
     width:200px;
+    z-index: 10;
 }  
 
+.menucontainer {
+  padding: 0px 0 0px 0;
+  /*margin:auto;*/
+  background-color: #fff;
+  width:100%;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  z-index: 5;
+  opacity:1;
+}
+
 .mobilemenubutton{
-    position: relative;
-    top: 2px;
-    right: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     z-index: 100;
+    /*opacity: 1;*/
+}
+
+.sword{
+    display: none;
 }
 
 }

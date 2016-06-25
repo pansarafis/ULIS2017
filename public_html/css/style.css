@@ -1,12 +1,13 @@
 @media screen and (min-width: 768px) {
   
 html{
-  background-color: hsla(50, 70%, 94%,1);
+    background-color: hsla(50, 70%, 94%,1);
 }
 
 body {
-  font-family: "ubuntu" ;
-  margin: auto;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+    /*font-family: "ubuntu" ;*/
+    margin: auto;
 }
 
 .max{
@@ -98,18 +99,17 @@ body {
 
   
 h1 a{
-  color: #03A9F4;
-  text-align: right;
-  font-size: 28pt;
-  font-weight: 900;
-  text-shadow: 0px 2px 5px black;
-  
+    color: #03A9F4;
+    text-align: right;
+    font-size: 42pt;
+    font-weight: 400;
+    text-shadow: 0px 2px 5px black;
 }
   
 .title h1 a:hover{
-  color: chocolate;
-  text-align: right;
-  font-size: 28pt;
+    color: chocolate;
+    text-align: right;
+    font-weight: 800;
 }
   
 .title h1 {
@@ -133,27 +133,38 @@ a {
   text-decoration: none;
 }
 
+.col- {
+    text-align: center;
+}
+
+p.col- {
+    border-bottom: #fff dashed thin;
+    color: #fff;
+    font-size: 18pt;
+    text-align: right;
+    padding: 0 4pt 0 4pt;
+}
+
 li.col-:hover  {
-    background-color: #1f9fdf;
-    border-bottom:2px solid white; 
+    background-color: #93a3ab;
+    color: #1f9fdf;
+    /*background-color: #1f9fdf;*/
+    /*border-bottom:2px solid white;*/ 
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
 
 li.col- {
-  width: 80%;
-  text-align: center;
-  border-bottom:2px solid chocolate; 
+  width: 100%;
   margin:3pt 0pt 3pt 0pt;
   color: #03A9F4;
   display: inline-block;
-
-  background-color: #3e7fa0;
-  padding: 5pt 10pt 0pt 10pt;
+  /*background-color: #3e7fa0;*/
+  /*padding: 5pt 10pt 0pt 10pt;*/
   border-radius: 0pt;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 12pt;
-  
+  vertical-align: middle; 
   /*box-shadow: 0px 0px 3px black;*/
 }
   .main{
@@ -178,13 +189,11 @@ li.col- {
 .menucontainer {
   float: left;
   padding: 01%;
-  
-  background-color: #3e7fa0;
+  /*background-color: #79b8d1;*/
   width: 20%;
-  
   height: 100%;
-  
 }
+
 .mainContainer {
   margin: auto;
 
@@ -205,25 +214,19 @@ li.col- {
 }
 .mainContainer p{
   font-size: 11pt;
-
 }
+
 .lista{
-  margin-top: 8pt
-    
-
+  margin-top: 8pt;
 }
+
 li{
   margin:0;
   font-size: 11pt;
-  
-  
   padding-top: 5pt;
   padding-bottom: 5pt;
   padding-left: 0pt;
   list-style-type: circle ;
-   
-
-
 }
 /*li:hover{
   
