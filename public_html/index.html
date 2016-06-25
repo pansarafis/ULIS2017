@@ -7,6 +7,7 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/mobile.css" rel="stylesheet">
   <link href="css/responsive-menu.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.ico">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/responsive-menu.js"></script>
   <script src="http://cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"></script>
@@ -25,7 +26,7 @@
                  * Must be in pixels and include px units if not using Modernizr.
                  * @default '769px'
                  */
-                minWidth: '768px',
+                minWidth: '769px',
 
                 /**
                  * The opening and closing speed of the menus in milliseconds
@@ -108,7 +109,6 @@
     </script>
 </head>
 <body>
-    <a class="mobilemenubutton rm-toggle rm-button rm-nojs" href="#menubar"></a>
     <div class="headerUp">
         <div class="title max">
             <div class="logoContainer">
@@ -121,7 +121,7 @@
             </div>
             <div class="headings">
                 <h1>
-                  <a href="">EUROSOI-ULIS 2016 </a>
+                  <a id="menubutton" href="#menubar">EUROSOI-ULIS 2016 </a>
                 </h1>
 
                 <h2>
@@ -136,25 +136,24 @@
         </div>
     </div>
     <div class="main max">
-        <div class="menucontainer">
-            <section id="menubar">
-                <nav class="menu rm-nav rm-nojs rm-lighten">
-                    <ul>
-                        <li class="col-"><a href="#">Call for Papers</a></li>
-                        <li class="col-"><a href="#">Paper Submission</a></li>
-                        <li class="col-"><a href="#">Conference Program</a></li>
-                        <li class="col-"><a href="#">Registration</a></li>
-                        <li class="col-"><a href="#">SINANO Award</a></li>   
-                        <li class="col-"><a href="">Plenary Talks</a></li>  
-                        <li class="col-"><a href="">Venue</a></li>  
-                        <li class="col-"><a href="">Travel</a></li>  
-                        <li class="col-"><a href="">Accomodation</a></li>  
-                        <li class="col-"><a href="">Committee</a></li>  
-                        <li class="col-"><a href="">Contact</a></li>  
-                        <li class="col-"><a href="">Social events</a></li>  
-                    </ul>
-                </nav>
-            </section>
+        <div class="menucontainer">  
+            <a class="mobilemenubutton rm-toggle rm-button rm-nojs"></a>
+            <nav class="menu rm-nav rm-nojs rm-lighten">
+                <ul>
+                    <li class="col-"><a href="#">Call for Papers</a></li>
+                    <li class="col-"><a href="#">Paper Submission</a></li>
+                    <li class="col-"><a href="#">Conference Program</a></li>
+                    <li class="col-"><a href="#">Registration</a></li>
+                    <li class="col-"><a href="#">SINANO Award</a></li>   
+                    <li class="col-"><a href="">Plenary Talks</a></li>  
+                    <li class="col-"><a href="">Venue</a></li>  
+                    <li class="col-"><a href="">Travel</a></li>  
+                    <li class="col-"><a href="">Accomodation</a></li>  
+                    <li class="col-"><a href="">Committee</a></li>  
+                    <li class="col-"><a href="">Contact</a></li>  
+                    <li class="col-"><a href="">Social events</a></li>  
+                </ul>
+            </nav>
         </div>
         
         <div class="chipImg">

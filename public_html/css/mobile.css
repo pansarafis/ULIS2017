@@ -140,9 +140,8 @@ a.col-:hover  {
 }
 
 .menucontainer {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  margin:auto;
+  padding: 0px 0 0px 0;
+  /*margin:auto;*/
   background-color: #224a87;
   width:100%;
 }
@@ -220,9 +219,10 @@ li:hover{
 }  
 
 .mobilemenubutton{
-    position: fixed;
+    position: relative;
     top: 2px;
     right: 5px;
+    z-index: 100;
 }
 
 }

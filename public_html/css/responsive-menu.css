@@ -91,7 +91,7 @@ to work with the chosen theme.
 }
 .rm-nav li a,
 .rm-menu-item a {
-    padding: .75em 1em;
+    padding: .1em 0.1em;
     display: block;
     position: relative;
     color:#fff;

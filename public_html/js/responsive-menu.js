@@ -23,6 +23,17 @@
  * along with this program.  If not, see http://www.gnu.org/licenses/
  */
 
+
+//;function jump(h){
+//    var top = document.getElementById(h).offsetTop; //Getting Y of target element
+//    window.scrollTo(0, top);                        //Go there directly or some transition
+//}
+
+//function jump(aid){
+//  var aTag = $("a[name='"+ aid +"']");
+//  $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+//}
+
 ;(function( $, window, document, Math, undefined ) {
 
     'use strict';
@@ -613,6 +624,8 @@
 
             e.preventDefault();
             e.stopPropagation();
+            
+//            jump("menubar");
         };
 
         /**
@@ -915,7 +928,7 @@
      * @returns {*}
      */
     $.fn[ pluginName ] = function( options ) {
-
+        
         // Return collection of elements
         return this.each( function() {
             var $el = $( this );
