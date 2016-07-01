@@ -41,14 +41,15 @@ body {
 
 .logo{
   margin: auto;
-  width: 40%;
+  width: 30%;
+    display: block;
 }
 
 .logo img {
+  /* position: relative; */
   float: left;
   margin: auto;
-  width:
-  100px;
+  width: 100%;
 }
 
 .title {
@@ -89,27 +90,44 @@ a {
   text-decoration: none;
 }
 
-a.col-:hover  {
+/*a.col-:hover  {
   background-color: #03A9F4;
   color:white;
   border-bottom:3px solid white; 
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}*/
+p.col- {
+    display: none;
+    border-bottom: #224a87 dashed thin;
+    color: #224a87;
+    font-size: 18pt;
+    text-align: left;
+    padding: 0pt 4pt 0 4pt;
+    margin-left: 3pt;
+  }
+li.col-:hover  {
+    background-color: transparent;
+/*    background-color: #93a3ab;*/
+    color: #fff;
+    /*background-color: #1f9fdf;*/
+    /*border-bottom:2px solid white;*/ 
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
-
-.col- {
-  width: 25%;
-  text-align: center;
-  border-bottom:3px solid #03A9F4; 
-  margin: 3pt 0pt 3pt 3pt;
-  color: #fff;
+li.col- {
+ 
+  width: 40%;
+  /*margin:3pt 0pt 3pt 0pt;*/
+  
+  color: #03A9F4;
   display: inline-block;
-  /*background-color: ;*/
-  padding: 5pt 10pt 5pt 10pt;
+  /*background-color: #3e7fa0;*/
+  /*padding: 5pt 10pt 0pt 10pt;*/
   border-radius: 0pt;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 12pt;
-
+  /*vertical-align: middle;*/ 
   /*box-shadow: 0px 0px 3px black;*/
 }
 
@@ -129,26 +147,16 @@ a.col-:hover  {
 
 }
 
-.container {
-  width:100%;
-  background-color: #224a87;
-  margin: -0px;
-  padding: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  box-shadow: 0px -1px 5px;
-}
 
 .menucontainer {
-  padding: 0px 0 0px 0;
+  padding: 5px 0 0px 0;
   /*margin:auto;*/
   background-color: #224a87;
   width:100%;
 }
 
-.mainSec{
-  margin-top: 0;
-  background-color: white;
+.menuheader {
+    display: none;
 }
 
 .mainContainer {
@@ -189,21 +197,70 @@ li:hover{
   padding: 5pt;
 }
 
+.footer{
+    clear: both;
+    position: relative;
+    display: block;
+    margin: 10px auto 0px auto;
+    width: 100%;
+	/* height: 120px; */
+    background-color:  hsla(216, 60%, 33% ,0.8);
+	/* display: none; */
+	text-align: center;  
+  
+}
+.footerlogos{
+   height: 50px;
+   /* width: 10%; */
+   /* margin-left: 1%; */
+   /* margin-right: 1%; */
+   display: inline-block;
+   margin: 1%;
+   /* display: none; */
+}
+.footerlogos img{
+    height: 100%;
+	/* width: 100%; */
+	/* display: none; */
+}
+
+
+
 }
 
 @media screen and (max-width: 480px) {
-.col- {
-    width: 70%;
-    text-align: center;
-    margin:auto;
-    margin-top:3pt;
-    margin-bottom: 3pt;
-    color: white;
-    padding: 5pt;
-    border-radius: 0pt;
-    font-weight:800;
-    
-    border-bottom:3px solid #03A9F4; 
+li.col-:hover  {
+    background-color: transparent;
+/*    background-color: #93a3ab;*/
+    color: #fff;
+    /*background-color: #1f9fdf;*/
+    /*border-bottom:2px solid white;*/ 
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+p.col- {
+    border-bottom: #224a87 dashed thin;
+    color: #224a87;
+    font-size: 18pt;
+    text-align: left;
+    padding: 0pt 4pt 0 4pt;
+    margin-left: 3pt;
+}
+
+li.col- {
+ 
+  width: 90%;
+  /*margin:3pt 0pt 3pt 0pt;*/
+  
+  color: #03A9F4;
+  display: inline-block;
+  /*background-color: #3e7fa0;*/
+  /*padding: 5pt 10pt 0pt 10pt;*/
+  border-radius: 0pt;
+  font-weight: 400;
+  font-size: 12pt;
+  /*vertical-align: middle;*/ 
+  /*box-shadow: 0px 0px 3px black;*/
 }
 
 .logo{
@@ -233,6 +290,10 @@ li:hover{
   opacity:1;
 }
 
+p.menu{
+    
+}
+
 .mobilemenubutton{
     position: absolute;
     top: 0px;
@@ -241,8 +302,37 @@ li:hover{
     /*opacity: 1;*/
 }
 
+
+
 .sword{
     display: none;
 }
+
+/* .footer{
+    clear: both;
+    position: relative;
+    display: block;
+    margin: 10px auto 0px auto;
+    width: 100%;
+	/* height: 120px; */
+    background-color:  hsla(216, 60%, 33% ,0.8);
+	/* display: none; */
+	text-align: center;  
+  
+} */
+.footerlogos{
+   height: 30px;
+   /* width: 10%; */
+   /* margin-left: 1%; */
+   /* margin-right: 1%; */
+   display: inline-block;
+   margin: 1%;
+   /* display: none; */
+}
+/* .footerlogos img{
+    height: 100%;
+	/* width: 100%; */
+	/* display: none; */
+} */
 
 }

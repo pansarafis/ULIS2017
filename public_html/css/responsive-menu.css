@@ -81,17 +81,21 @@ to work with the chosen theme.
 }
 
 /* Menu & Sub Menu Items */
+.rm-nav li p,
 .rm-nav li,
 .rm-menu-item {
     position: relative;
+    
 }
 .rm-nav > ul > .rm-last,
 .rm-top-menu > .rm-last {
     margin-bottom: 1em;
 }
+
+.rm-nav li p,
 .rm-nav li a,
 .rm-menu-item a {
-    padding: .1em 0.1em;
+    padding: 1em 1em;
     display: block;
     position: relative;
     color:#fff;
@@ -102,8 +106,9 @@ to work with the chosen theme.
 .rm-nav li ul,
 .rm-menu-item .rm-menu {
     width: 100%;
-    padding:0;
+    /*padding:0;*/
     margin-left: 0;
+    /*margin-right: 2em;*/
     list-style: none;
     z-index: 500;
     zoom: 1;
@@ -117,7 +122,7 @@ to work with the chosen theme.
 .rm-nav li li a,
 .rm-menu-item .rm-menu-item a {
     z-index:500;
-    padding-left: 2em;
+    /*padding-left: 2em;*/
 }
 .rm-nav li li.rm-last a,
 .rm-menu-item .rm-menu-item.rm-last a {
@@ -131,7 +136,7 @@ to work with the chosen theme.
 .rm-nav li li li a,
 .rm-menu-item .rm-menu-item .rm-menu-item a {
     z-index:600;
-    padding-left: 3em;
+    /*padding-left: 3em;*/
 }
 
 /* CSS Animations ============================================================= */
@@ -164,6 +169,7 @@ to work with the chosen theme.
     outline: none;
 }
 
+.rm-lighten p
 .rm-lighten li li a,
 .rm-lighten li a:focus,
 .rm-lighten li a:hover,
@@ -177,6 +183,7 @@ to work with the chosen theme.
     outline: none;
 }
 
+.rm-lighten p
 .rm-lighten li li li a,
 .rm-lighten li li a:focus,
 .rm-lighten li li a:hover,
@@ -193,6 +200,7 @@ to work with the chosen theme.
     background-color: rgba(255, 255, 255, .2);
 }
 
+.rm-lighten p
 .rm-lighten li li li a:focus,
 .rm-lighten li li li a:hover,
 .rm-lighten li li li.rm-hover a,
@@ -266,10 +274,10 @@ to work with the chosen theme.
 }
 .rm-layout-expanded .rm-nav > ul > li > a,
 .rm-layout-expanded .rm-top-menu > .rm-menu-item > a {
-    height: 2em;
-    line-height: 1em; /* match with height to center vertically */
-    padding-top: 0;
-    padding-bottom: 0;
+    height: 0.8em;
+    line-height: 0.8em; /* match with height to center vertically */
+/*    padding-top: 0.2em;
+    padding-bottom: 0.2em;*/
 }
 .rm-layout-expanded li ul,
 .rm-layout-expanded .rm-menu-item .rm-menu {
@@ -337,7 +345,6 @@ to work with the chosen theme.
 /* Expanded layout if JS not supported */
 /* Note: The min-width value here should match minWidth value set in JS */
 @media screen and ( min-width: 769px ) {
-
     .rm-nojs > ul > li,
     .no-js .rm-nav > ul > li,
     .rm-nojs > .rm-menu > .rm-menu-item,
