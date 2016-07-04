@@ -187,12 +187,10 @@ a {
 
 .mainContainer {
     text-align: left;
-    margin: auto;
     display: inline-block;
     position: relative;
-    margin-top: 0px;
-    margin-left: 1%;
-    width: 76%;
+    margin: 0 1% 0 1%;
+    width: 98%;
     z-index: 3;
 }
 
@@ -208,7 +206,7 @@ a {
 }
 
 .lista{
-  margin-top: 8pt;
+    margin-top: 8pt;
 }
 
 .lista>ul>li {
