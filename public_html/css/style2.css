@@ -118,8 +118,6 @@ body {
 }
 
 
-
-
 .title h2 {
   margin-top :0em;
   text-align: center;
@@ -163,8 +161,6 @@ body {
     width:100%;
 }
 
-
-
 .subtitles{
     width:100%;
     /*background-color: #FDE7C8;*/
@@ -179,7 +175,6 @@ a {
   text-decoration: none;
 }
 
-
 .main{
     margin-top: 0%;
     margin-left: auto;
@@ -189,8 +184,6 @@ a {
     background-color: hsla(208, 0%, 100%,0.6);
     position: relative;
 }
-
-  
 
 .mainContainer {
     text-align: left;
@@ -214,26 +207,17 @@ a {
   font-size: 11pt;
 }
 
-
 .lista{
   margin-top: 8pt;
 }
 
-li{
-  margin:0;
-  font-size: 11pt;
-  padding-top: 5pt;
-  padding-bottom: 5pt;
-  padding-left: 0pt;
-  list-style-type: circle ;
+.lista>ul>li {
+    margin:0;
+    font-size: 11pt;
+    padding-top: 5pt;
+    padding-left: 5pt;
+    list-style-type: circle ;
 }
-
-/*#myCarousel{
-    display: inline;
-}*/
-
-
-
 
 .footer{
     clear: both;
@@ -253,48 +237,67 @@ li{
    display: inline-block;
    margin: 1%;
 }
+
 .footerlogos img{
     height: 100%;
-	/* width: 100%; */
+}
+
+/* Edits on bootstrap classes */
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #4f88b1;
 }
 
 
+.dropdown-menu{
+    background-color: #4f88b1;
+    color: #fff;
+}
 
+.dropdown-menu>li>a{
+    color: #fff;
+    padding-top: 6px;
+}
 
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+    }
+}
 
+/*Colors of the dropdown menu/button in mobile version*/
+.navbar-inverse .navbar-toggle{
+    border: none;
+}
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    /*border-color: #101010;*/
+    border-color: #fff;
+}
 
-  
-
- 
-  
-  
-  
-
-
-
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
 
 .navbar-inverse {
     background-color: #7299b6;
     border: 0;
 }
 
-/*.navbar-invers .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #000;  Sets the text hover color on navbar
-}*/
-
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
 }
 
-.dropdown-toggle {
+/*.dropdown-toggle {
     color: white;
-}
+}*/
 
 
 
 
-.sliderContain{
+/*.sliderContain{
     
     top:0px;
     width:100%;
@@ -303,7 +306,7 @@ li{
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
      z-index: -1;
-}
+}*/
 
   
 

@@ -110,18 +110,18 @@
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Participate<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li class="col-"><a href="#">Paper Submission</a></li>
-                    <li class="col-"><a href="#">Registration</a></li>
-                    <li class="col-"><a href="#">SINANO Award</a></li>
+                    <li><a href="#">Paper Submission</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">SINANO Award</a></li>
                 </ul>
             </li>
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Venue<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li class="col-"><a href="#">Venue</a></li>
-                    <li class="col-"><a href="#">Accomodation</a></li>
-                    <li class="col-"><a href="#">Travel</a></li>
-                    <li class="col-"><a href="#">About Athens</a></li>
+                    <li><a href="#">Venue</a></li>
+                    <li><a href="#">Accommodation</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">About Athens</a></li>
                 </ul>
             </li>
             <li><a href="">Contact</a></li>
@@ -161,18 +161,6 @@
                     <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
                     <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
                     <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li><li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    <li> Advanced test structures and characterization techniques, parameter extraction, reliability and variability issues for new materials and novel devices</li>
-                    
-                    
                 </ul>
             </div>
         </div>
