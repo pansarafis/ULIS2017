@@ -44,8 +44,8 @@ body {
   opacity: 0.4;
   z-index: -2;
 }
-.chipImg2{
-  /*overflow: hidden;*/
+/*.chipImg2{
+  overflow: hidden;
   
   position: fixed;
   right: 20%;
@@ -53,14 +53,14 @@ body {
  
   opacity: 0.3;
   z-index: -2;
-  -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
+  -ms-transform: rotate(90deg);  IE 9 
+    -webkit-transform: rotate(90deg);  Chrome, Safari, Opera 
+    transform: rotate(270deg);*/
     
-}
+/*}
 .chipImg2 img {
     width: 600px;
-}
+}*/
   
 .headerUp {
     position: relative;
@@ -177,6 +177,8 @@ body {
 .logo{
     float: left;
  /*width: 300px;*/
+ top:-20px;
+ 
    
   }
  
@@ -360,7 +362,7 @@ a {
    .title {
     /*position: absolute;*/position: relative;
     top: 0px;
-    text-align: right;
+    text-align: center;
     margin:auto;
     margin-top:0px;
     /*margin-bottom: 10px;*/
@@ -373,6 +375,7 @@ a {
     float:none;
     width:80%;
     margin:auto;
+    top:-20px;
 }
 }
 @media (min-width: 1200px){
