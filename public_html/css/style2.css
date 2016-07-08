@@ -66,6 +66,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
     top: 0px;
     width: 100%;
     height: auto;
@@ -132,6 +133,8 @@ body {
     padding-right: 0.5em;
 }
 
+
+
 .title h1>a:hover{
     text-align: right;
     text-decoration: none;
@@ -190,11 +193,11 @@ body {
 .subtitles{
     width:100%;
     /*background-color: #FDE7C8;*/
-    background-color: hsla(0,0%,90%,0.8);
+    background-color: hsla(0,0%,95%,0.8);
     opacity: 1;
     position:relative;
     display: block;
-    box-shadow: 0px 0px 1px black;
+    border: 1px solid #ddd;
 }
 
 a {
@@ -359,6 +362,7 @@ a {
     #myCarousel{
         display:none;
     }
+    
    .title {
     /*position: absolute;*/position: relative;
     top: 0px;
@@ -368,15 +372,19 @@ a {
     /*margin-bottom: 10px;*/
     padding-bottom:0px;
     width:100%;
-    font-weight: 200pt;
+    font-weight: 200;
+    
+    .title h1>a {
+        font-size: 1em;
+    }
     
 }
-.logo{
-    float:none;
-    width:80%;
-    margin:auto;
-    top:-20px;
-}
+    .logo{
+        float:none;
+        width:80%;
+        margin:auto;
+        top:-20px;
+    }
 }
 @media (min-width: 1200px){
     
