@@ -44,23 +44,22 @@ body {
   opacity: 0.4;
   z-index: -2;
 }
-/*.chipImg2{
-  overflow: hidden;
-  
-  position: fixed;
-  right: 20%;
-  top:-100px;
- 
-  opacity: 0.3;
-  z-index: -2;
-  -ms-transform: rotate(90deg);  IE 9 
-    -webkit-transform: rotate(90deg);  Chrome, Safari, Opera 
-    transform: rotate(270deg);*/
+
+ #mCon{
+     
+     position: fixed;
+     top: 15px;
+     left:-100px;
+     border-right:2px solid #fff;
+
+    /*background-color: white;*/
+    padding: 0em 0em 0em 0em;
+    /*margin:0em 0em 0.0em 0em;*/
     
-/*}
-.chipImg2 img {
-    width: 600px;
-}*/
+    z-index: 1500;
+   
+       }
+       marquee{color: orangered;}
   
 .headerUp {
     position: relative;
@@ -262,6 +261,10 @@ a {
         border-top-right-radius: 4px;
 
 }
+ .navbar-nav {
+     margin-left:31%;
+     /*float:right;*/
+ }
 
 .footerlogos{
    height: 70px;
@@ -276,12 +279,14 @@ a {
     height: 100%;
 }
 
+
 /* Edits on bootstrap classes */
 
 .navbar-inverse .navbar-nav>.open>a, 
 .navbar-inverse .navbar-nav>.open>a:focus, 
 .navbar-inverse .navbar-nav>.open>a:hover {
     background-color: #4f88b1;
+    
     
 }
 .dropdown-menu{
@@ -321,6 +326,7 @@ a {
     margin-bottom: 0px;
     border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
+        opacity: 0.99;
 
    
 }
@@ -345,6 +351,8 @@ a {
 
 .navbar-nav a {
     font-size:16px;
+    
+    
   
 }
 /*.sliderContain{
@@ -359,6 +367,11 @@ a {
 }*/
 
 @media (max-width: 625px){
+    #mCon{
+     
+      left:-40px;
+      
+       }
     #myCarousel{
         display:none;
     }
@@ -377,6 +390,7 @@ a {
     .title h1>a {
         font-size: 1em;
     }
+   
     
 }
     .logo{
@@ -385,6 +399,7 @@ a {
         margin:auto;
         top:-20px;
     }
+    
 }
 @media (min-width: 1200px){
     
@@ -392,6 +407,17 @@ a {
        
         margin-top: 100px;
     }
+    #mCon{
+     
+     top: 15px;
+     left:110px;
+     
+
+  
+    
+   
+   
+       }
 }
 
  
