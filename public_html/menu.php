@@ -29,7 +29,7 @@ echo
                 <ul class="dropdown-menu">
                     <li><a href="#">Paper Submission</a></li>
                     <li><a href="#">Registration</a></li>
-                    <li><a href="#">SINANO Award</a></li>
+                    <li><a href="sinanoaward.php">SINANO Award</a></li>
                 </ul>
             </li>
             <li class="dropdown">

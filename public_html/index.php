@@ -50,8 +50,8 @@
 
         <div class="leftColCotainer col-sm-3 col-sm-pull-9">
             <div class="newsContainer">
-                <p class="header">News</p>
-                <marquee id="mCon" direction="up" scrolldelay="10" scrollamount="1">
+                <div class="header"> <p>News</p></div>
+                <div id="animated" >
                     <dl>
                         <dt>Program Announced</dt>
                         <dd>last drink last drink last drink last drink last drink !!!</dd>
@@ -62,19 +62,19 @@
                         <dt>Program Announced</dt>
                         <dd>last drink last drink last drink last drink last drink !!!</dd>
                     </dl>
-                </marquee>
+                </div>
             </div>
 
-            <div id="newsletter">
-                <button type="button" class="btn btn-block btn-primary">Subscribe to our Newsletter</button>
+            <div class="newsletter">
+                <button type="button" class="btn btn-block btn-primary">Subscribe!</button>
             </div>
-
-            <div id="newsletter">
+            
+            <div class="newsletter">
                 <button type="button" class="btn btn-block btn-success">Register Now!</button>
             </div>
 
             <div class="sponsorsContainer">
-                <p>Sponsors</p>
+                <div class="sponsorHeader"><p>Sponsors</p></div> 
                 <div class="sponsorlogo">
                     <img class="img-thumbnail" src="images/demokritos.png">
                 </div>

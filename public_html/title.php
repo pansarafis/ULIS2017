@@ -13,11 +13,12 @@ echo '
 
        <!--Wrapper for slides--> 
       <div class="carousel-inner" role="listbox">
+        
         <div class="item active">
           <img src="img/ulis12.jpg" alt="Chania">
         </div>
 
-        <div class="item">
+        <!--<div class="item">
           <img src="img/ulis14.jpg" alt="Chania">
         </div>
 
@@ -29,11 +30,24 @@ echo '
           <img src="img/ulis15.jpg" alt="Flower">
         </div>
           
-           <div class="item">
-          <img src="img/ulis13.jpg" alt="Flower">
+        <div class="item">
+            <img src="img/ulis13.jpg" alt="Flower">
+        </div> -->
+        
+        <div class="item">
+            <img src="img/ulis16.jpg" alt="Flower">
         </div>
-            <div class="item">
-          <img src="img/ulis16.jpg" alt="Flower">
+        
+        <div class="item">
+          <img src="img/ulis_imel.jpg" alt="Flower">
+        </div>
+        
+        <div class="item">
+          <img src="img/ulis_wafer.jpg" alt="Flower">
+        </div>
+        
+        <div class="item">
+          <img src="img/ulis_athens.jpg" alt="Flower">
         </div>
       </div>
     </div>
