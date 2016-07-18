@@ -17,8 +17,8 @@
             <img src="images/chipgrey.png" />
         </div>
 
-        <div class="col-sm-9 col-sm-push-3">
-            <h2>Scope of the Conference</h2>
+        <div class="col-sm-10 col-sm-push-2 mainContainer">
+            <h2>Scope of the Conference </h2>
             <p>After the great success of the first EUROSOI-ULIS event in Bologna, it is our pleasure to announce that the second joint EUROSOI-ULIS event will be hosted by the Institute for Microelectronics, TU Wien. The focus of the sessions lies on SOI technology and advanced nanoscale devices. The organizing committee invites to actively participate by submitting high quality papers.</p>
 
             <h2>Call for Papers</h2> 
@@ -48,10 +48,10 @@
             </div>
         </div>
 
-        <div class="leftColCotainer col-sm-3 col-sm-pull-9">
-            <div class="newsContainer">
-                <div class="header"> <p>News</p></div>
-                <div id="animated" >
+        <div class="leftColCotainer col-sm-2 col-sm-pull-10">
+<!--            <div class="newsContainer">
+                <p class="header">News</p>
+                <marquee id="mCon" direction="up" scrolldelay="10" scrollamount="1">
                     <dl>
                         <dt>Program Announced</dt>
                         <dd>last drink last drink last drink last drink last drink !!!</dd>
@@ -62,16 +62,34 @@
                         <dt>Program Announced</dt>
                         <dd>last drink last drink last drink last drink last drink !!!</dd>
                     </dl>
-                </div>
-            </div>
+                </marquee>
+            </div>-->
+<div class="newsContainer">
+            <div class="header"> <p>News</p></div>
+            <!--<marquee id="mCon" direction="up" scrolldelay="0" scrollamount="1">-->
+            <div id="animated" >
+                <dl>
+                    <dt>Program Announced</dt>
+                    <dd>last drink last drink last drink last drink last drink !!!</dd>
+                    <dt>Program Announced</dt>
+                    <dd>last drink last drink last drink last drink last drink !!!</dd>
+                    <dt>Program Announced</dt>
+                    <dd>last drink last drink last drink last drink last drink !!!</dd>
+                    <dt>Program Announced</dt>
+                    <dd>last drink last drink last drink last drink last drink !!!</dd>
+                </dl>
+             </div>
+                
 
-            <div class="newsletter">
-                <button type="button" class="btn btn-block btn-primary">Subscribe!</button>
-            </div>
-            
-            <div class="newsletter">
-                <button type="button" class="btn btn-block btn-success">Register Now!</button>
-            </div>
+       </div>
+
+           <div class="newsletter">
+            <button type="button" class="btn btn-block btn-primary">Subscribe!</button>
+        </div>
+        
+        <div class="newsletter">
+            <button type="button" class="btn btn-block btn-success">Register Now!</button>
+        </div>
 
             <div class="sponsorsContainer">
                 <div class="sponsorHeader"><p>Sponsors</p></div> 
@@ -88,11 +106,14 @@
                     <img class="img-thumbnail" src="images/IEEE_logo.png">
                 </div>
             </div>
-        </div>
+        
     </div>
     
     <div class="footer row">
+       
         <p>Copyright EuroSOI-ULIS 2017</p>
+      
+        
     </div>
 </div>
 
