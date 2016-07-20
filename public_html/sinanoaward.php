@@ -12,13 +12,13 @@
     <?php include 'menu.php'?>
  
 
-    <div class="main row">
+    <div class="main row ">
 
         <div class="chipImg">
             <img src="images/chipgrey.png" />
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 ">
             <h2>ULIS Best Paper Award</h2>
             A Sinano Best Paper Award (joint Sinano/Ulis) has been proposed in the framework of the European EuroSOI - ULIS Conference: The Sinano Institute will sponsor the EuroSOI - ULIS 2017 Conference, which is in the same research area as the research domains of the Sinano Institute.
             <ul>

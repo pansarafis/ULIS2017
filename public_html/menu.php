@@ -7,7 +7,10 @@ echo
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
         </button>
-        <p class="navbar-inverse navbar-brand">EuroSOI - ULIS 2017</p>
+        <h1 class="navbar-inverse navbar-brand ulis">
+              <a href="index.php">EuroSOI - ULIS<span> 2017</span></a>
+        </h1>
+      <!-- <p class="navbar-inverse navbar-brand">EuroSOI - ULIS 2017</p> -->
     </div>
 
     <div class="collapse navbar-collapse " id="myNavbar">
@@ -38,7 +41,7 @@ echo
                     <li><a href="venue.php">Venue</a></li>
                     <li><a href="#">Accommodation</a></li>
                     <li><a href="#">Travel</a></li>
-                    <li><a href="#">About Athens</a></li>
+                    <li><a href="AboutAthens.php">About Athens</a></li>
                 </ul>
             </li>
             <li><a href="contact.php">Contact</a></li>

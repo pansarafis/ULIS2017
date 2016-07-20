@@ -39,7 +39,7 @@ echo '
         </div>
         
         <div class="item">
-          <img src="img/ulis_imel.jpg" alt="Flower">
+          <img src="img/ulis_imel-bw.jpg" alt="Flower">
         </div>
         
         <div class="item">
@@ -49,18 +49,20 @@ echo '
         <div class="item">
           <img src="img/ulis_athens.jpg" alt="Flower">
         </div>
+          
+
       </div>
     </div>
 
     <div class="title row">
-        <div class=" logo col-sm-4 "><a href="true.html">
+        <div class=" logo col-sm-4 "><a href="index.php">
             <img src="images/logo_glow.png">
             </a>
         </div>
         <div class="headings col-sm-8">
-            <h1>
-                <a href="true.html">EUROSOI-ULIS <span>2017</span></a>
-            </h1>
+          <!--  <h1>
+              <a href="true.html">EUROSOI-ULIS <span>2017</span></a>
+            </h1>-->
         </div>
     </div>
 

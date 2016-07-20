@@ -49,25 +49,11 @@
         </div>
 
         <div class="leftColCotainer col-sm-2 col-sm-pull-10">
-<!--            <div class="newsContainer">
-                <p class="header">News</p>
-                <marquee id="mCon" direction="up" scrolldelay="10" scrollamount="1">
-                    <dl>
-                        <dt>Program Announced</dt>
-                        <dd>last drink last drink last drink last drink last drink !!!</dd>
-                        <dt>Program Announced</dt>
-                        <dd>last drink last drink last drink last drink last drink !!!</dd>
-                        <dt>Program Announced</dt>
-                        <dd>last drink last drink last drink last drink last drink !!!</dd>
-                        <dt>Program Announced</dt>
-                        <dd>last drink last drink last drink last drink last drink !!!</dd>
-                    </dl>
-                </marquee>
-            </div>-->
+           
 <div class="newsContainer">
             <div class="header"> <p>News</p></div>
             <!--<marquee id="mCon" direction="up" scrolldelay="0" scrollamount="1">-->
-            <div id="animated" >
+<!--            <div id="animated" >
                 <dl>
                     <dt>Program Announced</dt>
                     <dd>last drink last drink last drink last drink last drink !!!</dd>
@@ -78,13 +64,13 @@
                     <dt>Program Announced</dt>
                     <dd>last drink last drink last drink last drink last drink !!!</dd>
                 </dl>
-             </div>
+             </div>-->
                 
 
        </div>
 
            <div class="newsletter">
-            <button type="button" class="btn btn-block btn-primary">Subscribe!</button>
+            <button type="button" class="btn btn-block btn-primary">Subscribe to newsletter!</button>
         </div>
         
         <div class="newsletter">
