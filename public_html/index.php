@@ -18,13 +18,11 @@
         </div>
 
         <div class="col-sm-10 col-sm-push-2 mainContainer">
-            <h2>Scope of the Conference </h2>
+            <h2>Welcome!</h2>
             <p>The third joint EUROSOI-ULIS event will be hosted by the Institute of Nanoscience & Nanotechnology of NCSR “Demokritos” in Athens, Greece. The focus of the sessions is on SOI technology and advanced nanoscale devices.</p>
 
             <h2>Call for Papers</h2> 
-            <p>The organizing committee invites scientists and engineers working in the above fields to actively participate by submitting high quality papers. Original 2-page abstracts with illustrations will be accepted for review in pdf format. The accepted abstracts will be published in a Proceedings book with an ISBN. 
-A 4-page follow-up paper delivered before April 3, 2016 will be published in IEEE Xplore Digital Library. The authors of the best papers will be invited to submit a longer version for publication in a special issue of Solid-State Electronics. A best paper award will be attributed to the best paper by the  SINANO institute.
-</p>
+            <p>The organizing committee invites scientists and engineers working in the above fields to actively participate by submitting high quality papers. Original 2-page abstracts with illustrations will be accepted for review in pdf format. The accepted abstracts will be published in a Proceedings book with an ISBN. A 4-page follow-up paper delivered before April 3, 2016 will be published in IEEE Xplore Digital Library. The authors of the best papers will be invited to submit a longer version for publication in a special issue of Solid-State Electronics. A best paper award will be attributed to the best paper by the  SINANO institute.</p>
 
             <h2>Important Dates</h2>
             <p>Abstract Submission Deadline: <b>December 20th, 2016</b></p>
@@ -52,33 +50,33 @@ A 4-page follow-up paper delivered before April 3, 2016 will be published in IEE
                 <div class="header"> <p>News</p></div>
                 <div id="animated" >
                     <dl>
-                        <dt>1st Call for Papers</dt>
-                        <dd>The 1st call of papers is announced. Download here.</dd>
+                        <dt>1st Announcement</dt>
+                        <dd>The 1st announcement of the EUROSOI-ULIS 2017 conference is released. Download <a href="files/1st_Announcement_EUROSOI_ULIS_2017.pdf">here</a>.</dd>
                     </dl>
                  </div>
            </div>
 
            <div class="newsletter">
-            <button type="button" class="btn btn-block btn-primary">Subscribe!</button>
+            <button type="button" class="btn btn-block btn-primary" data-toggle="modal" data-target="#newsletterModal">Subscribe to newsletter!</button>
         </div>
         
         <div class="newsletter">
-            <button type="button" class="btn btn-block btn-success">Register Now!</button>
+            <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#registrationModal">Register Now!</button>
         </div>
 
             <div class="sponsorsContainer">
                 <div class="sponsorHeader"><p>Sponsors</p></div> 
                 <div class="sponsorlogo">
-                    <img class="img-thumbnail" src="images/demokritos.png">
+                    <a href="http://www.demokritos.gr"><img class="img-thumbnail" src="images/demokritos.png"></a>
                 </div>
                 <div class="sponsorlogo">
-                    <img class="img-thumbnail" src="images/sinano_trans.png">
+                    <a href="http://inn.demokritos.gr"><img class="img-thumbnail" src="images/inn.png"></a>
                 </div>
                 <div class="sponsorlogo">
-                    <img class="img-thumbnail" src="images/logo_eds.png">
+                    <a href="http://www.sinano.eu/"><img class="img-thumbnail" src="images/sinano_trans.png"></a>
                 </div>
                 <div class="sponsorlogo">
-                    <img class="img-thumbnail" src="images/IEEE_logo.png">
+                    <a href="http://eds.ieee.org/"><img class="img-thumbnail" src="images/IEEE_eds_logo.png"></a>
                 </div>
             </div>
         
@@ -90,6 +88,48 @@ A 4-page follow-up paper delivered before April 3, 2016 will be published in IEE
       
         
     </div>
+</div>
+    
+<!--Registration Modal-->
+<div class="modal fade" id="registrationModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Registration</h4>
+      </div>
+      <div class="modal-body">
+        <p>Registration is not yet open!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--Newsletter Modal-->
+<div class="modal fade" id="newsletterModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Newsletter</h4>
+      </div>
+      <div class="modal-body">
+        <p>Newsletter services will be available soon!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 </body>

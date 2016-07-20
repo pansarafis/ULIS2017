@@ -1,6 +1,3 @@
-<?php 
-echo '
-    
 <div class="headerUp">
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
        <!--Indicators--> 
@@ -14,31 +11,15 @@ echo '
        <!--Wrapper for slides--> 
       <div class="carousel-inner" role="listbox">
         
-        <div class="item active">
+<!--        <div class="item active">
           <img src="img/ulis12.jpg" alt="Chania">
         </div>
-
-        <!--<div class="item">
-          <img src="img/ulis14.jpg" alt="Chania">
-        </div>
-
-        <div class="item">
-          <img src="img/ulis10.jpg" alt="Flower">
-        </div>
-
-        <div class="item">
-          <img src="img/ulis15.jpg" alt="Flower">
-        </div>
-          
-        <div class="item">
-            <img src="img/ulis13.jpg" alt="Flower">
-        </div> -->
         
         <div class="item">
             <img src="img/ulis16.jpg" alt="Flower">
-        </div>
+        </div>-->
         
-        <div class="item">
+        <div class="item active">
           <img src="img/ulis_imel.jpg" alt="Flower">
         </div>
         
@@ -49,18 +30,20 @@ echo '
         <div class="item">
           <img src="img/ulis_athens.jpg" alt="Flower">
         </div>
+          
+
       </div>
     </div>
 
     <div class="title row">
-        <div class=" logo col-sm-4 "><a href="true.html">
+        <div class=" logo col-sm-4 "><a href="index.php">
             <img src="images/logo_glow.png">
             </a>
         </div>
         <div class="headings col-sm-8">
-            <h1>
-                <a href="true.html">EUROSOI-ULIS <span>2017</span></a>
-            </h1>
+          <!--  <h1>
+              <a href="true.html">EUROSOI-ULIS <span>2017</span></a>
+            </h1>-->
         </div>
     </div>
 
@@ -70,14 +53,10 @@ echo '
     <div class="col-sm-12">
         <h2>
             2017 Joint International EUROSOI Workshop and
-            International Conference on Ultimate Integration on Silicon
+            International Conference on Ultimate Integration on Silicon (ULIS)
         </h2>
         <h3>
             April 3-5, 2017 - Athens, Greece
         </h3>
     </div>
 </div>
-
-';
-    
-?>
