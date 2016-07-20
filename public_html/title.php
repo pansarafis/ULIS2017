@@ -73,7 +73,7 @@ echo '
             International Conference on Ultimate Integration on Silicon
         </h2>
         <h3>
-            April 25-27, 2017 - Athens, Greece
+            April 3-5, 2017 - Athens, Greece
         </h3>
     </div>
 </div>
