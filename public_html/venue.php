@@ -15,7 +15,7 @@
     <div class="main row">
 
         <div class="chipImg">
-            <img src="images/chipgrey.png" />
+            <img alt="background IC" src="images/chipgrey.png" />
         </div>
 
         <div class="col-sm-12">

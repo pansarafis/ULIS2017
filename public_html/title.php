@@ -20,15 +20,15 @@
         </div>-->
         
         <div class="item active">
-          <img src="img/ulis_imel.jpg" alt="Flower">
+          <img src="images/Slideshow/highQ/ulis_imel.jpg" alt="INN NCSR Demokritos e-beam lithography room">
         </div>
         
         <div class="item">
-          <img src="img/ulis_wafer.jpg" alt="Flower">
+          <img src="images/Slideshow/highQ/ulis_wafer.jpg" alt="Chips on Si wafer">
         </div>
         
         <div class="item">
-          <img src="img/ulis_athens.jpg" alt="Flower">
+          <img src="images/Slideshow/highQ/ulis_athens.jpg" alt="Athens Acropolis view">
         </div>
           
 
@@ -37,7 +37,7 @@
 
     <div class="title row">
         <div class=" logo col-sm-4 "><a href="index.php">
-            <img src="images/logo_glow.png">
+            <img src="images/logo_glow_tiny.png">
             </a>
         </div>
         <div class="headings col-sm-8">

@@ -15,7 +15,7 @@
     <div class="main row ">
 
         <div class="chipImg">
-            <img src="images/chipgrey.png" />
+            <img alt="background IC" src="images/chipgrey.png" />
         </div>
 
         <div class="col-sm-12 mainContainer ">
@@ -41,16 +41,16 @@
      <div class=" gallery col-sm-12">
 
   <ul>
-       
-      <li><img src="GalleryPhotos/lycabettus-theater.jpg" /><div ><span>Lycabettus-theater</span></div></li>
-      <li><img src="GalleryPhotos/gallery-small-01.jpg" /><div><span>Plaka</span></div></li>
-      <li><img src="GalleryPhotos/Piraeus_Port_1.jpg" /><div><span>Piraeus port by night</span></div></li>
-      <li><img src="GalleryPhotos/gallery-monasthrakil-03.jpg" /><div><span>Monastiraki square</span></div></li>
-      <li><img src="GalleryPhotos/university-of-athens.jpg" /><div><span>University of Athens historic building</span></div></li>
-      <li><img src="GalleryPhotos/o_dromeas.jpg" /><div><span>Dromeas statue-Hilton hotel</span></div></li>
-       <li><img src="GalleryPhotos/olympic-stadium.jpg" /><div><span>Olympic complex</span></div></li>
-       <li><img src="GalleryPhotos/sounio-poseidon.jpg" /><div><span>Sounio-Temple of Poseidon</span></div></li>
-       <li><img src="GalleryPhotos/herodio.jpg" /><div><span>Ancient theater-Herodio</span></div></li>
+
+    <li><img src="images/GalleryPhotos/lycabettus-theater.jpg" /><div ><span>Lycabettus-theater</span></div></li>
+    <li><img src="images/GalleryPhotos/gallery-small-01.jpg" /><div><span>Plaka</span></div></li>
+    <li><img src="images/GalleryPhotos/Piraeus_Port_1.jpg" /><div><span>Piraeus port by night</span></div></li>
+    <li><img src="images/GalleryPhotos/gallery-monasthrakil-03.jpg" /><div><span>Monastiraki square</span></div></li>
+    <li><img src="images/GalleryPhotos/university-of-athens.jpg" /><div><span>University of Athens historic building</span></div></li>
+    <li><img src="images/GalleryPhotos/o_dromeas.jpg" /><div><span>Dromeas statue-Hilton hotel</span></div></li>
+    <li><img src="images/GalleryPhotos/olympic-stadium.jpg" /><div><span>Olympic complex</span></div></li>
+    <li><img src="images/GalleryPhotos/sounio-poseidon.jpg" /><div><span>Sounio-Temple of Poseidon</span></div></li>
+    <li><img src="images/GalleryPhotos/herodio.jpg" /><div><span>Ancient theater-Herodio</span></div></li>
 
   </ul>
  </div>
