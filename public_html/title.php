@@ -20,15 +20,15 @@
         </div>-->
         
         <div class="item active">
-          <img src="images/Slideshow/highQ/ulis_imel.jpg" alt="INN NCSR Demokritos e-beam lithography room">
+          <img src="images/Slideshow/ulis_imel_comp.jpg" alt="INN NCSR Demokritos e-beam lithography room">
         </div>
         
         <div class="item">
-          <img src="images/Slideshow/highQ/ulis_wafer.jpg" alt="Chips on Si wafer">
+          <img src="images/Slideshow/ulis_wafer_comp.jpg" alt="Chips on Si wafer">
         </div>
         
         <div class="item">
-          <img src="images/Slideshow/highQ/ulis_athens.jpg" alt="Athens Acropolis view">
+          <img src="images/Slideshow/ulis_athens_comp.jpg" alt="Athens Acropolis view">
         </div>
           
 

@@ -1,6 +1,7 @@
 <title>EUROSOI - ULIS 2017</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" as="image" href="images/subPageHeaderBG-alter2.png">
 <link rel="icon" type="image/png" href="images/favicon.ico">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style2.css" >
