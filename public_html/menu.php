@@ -10,7 +10,7 @@ echo
         <h1 class="navbar-inverse navbar-brand ulis">
               <a href="index.php">EuroSOI - ULIS<span> 2017</span></a>
         </h1>
-      <!-- <p class="navbar-inverse navbar-brand">EuroSOI - ULIS 2017</p> -->
+      
     </div>
 
     <div class="collapse navbar-collapse " id="myNavbar">
