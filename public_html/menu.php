@@ -7,7 +7,8 @@ echo
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
         </button>
-        <h1 class="navbar-inverse navbar-brand ulis">
+        <img class="navbar-brand gifaki" src="Images/globe3.gif"/>
+        <h1 class="navbar-inverse navbar-brand">
               <a href="index.php">EuroSOI - ULIS<span> 2017</span></a>
         </h1>
       
