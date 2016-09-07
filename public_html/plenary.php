@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Plenary Talks | EUROSOI - ULIS 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>

@@ -311,6 +311,22 @@ a {
   display: block;
 }
 
+.mainContainer h3{
+  margin-top: 1em;
+  color: #4f88b1;
+  color:#4f6b7a;
+  font-size: 14pt;
+  display: block;
+}
+
+.mainContainer h4{
+  margin-top: 1em;
+  color: #4f88b1;
+  color:#4f6b7a;
+  font-size: 12pt;
+  display: block;
+}
+
 .mainContainer p{
   font-size: 11pt;
 }

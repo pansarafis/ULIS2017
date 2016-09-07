@@ -1,4 +1,3 @@
-<title>EUROSOI - ULIS 2017</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preload" as="image" href="images/subPageHeaderBG-alter2.png">

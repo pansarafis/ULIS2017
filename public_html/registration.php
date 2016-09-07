@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Registration | EUROSOI - ULIS 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>
@@ -13,18 +14,18 @@
     <?php include 'menu.php'?>
  
 
-    <div class="main row ">
+    <div class="main row mainContainer">
 
         <div class="chipImg">
             <img alt="background IC" src="images/chipgrey.png" />
         </div>
 
-        <div class="col-sm-12 mainContainer">
+        <div class="col-sm-12">
             <button class="btn btn-danger btn-block btn-lg">Registration is now closed!</button>
             <p></p>
         </div>
         
-        <div class="col-sm-6">
+        <div class="col-sm-6 mainContainer">
             <h3>Registration</h3>
             <p>Conference fee includes: </p>
                 <ul>

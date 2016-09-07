@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Venue Info | EUROSOI - ULIS 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <img alt="background IC" src="images/chipgrey.png" />
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 mainContainer">
             <div class="thumbnail pull-right col-sm-5" style="margin:0 0 0 10px;">
                 <h2>Contact Details</h2>
                 <img src="images/caravel.jpg" alt="caravel overview" class="img-responsive" style="margin:10px 0 10px 0;">
@@ -27,7 +28,7 @@
                     <icon class="glyphicon glyphicon-phone-alt"></icon> Tel: +30 210 720 7000<br>
                     <icon class="glyphicon glyphicon-print"></icon> Fax: +30 210 723 6683<br>
                     <icon class="glyphicon glyphicon-envelope"></icon> E-mail: <a href="mailto:info@divanicaravel.gr">info@divanicaravel.gr</a><br>
-                    <icon class="glyphicon glyphicon-globe"></icon> Website: <a href="http://divanicaravelhotel.com/en/">http://nano4nps.imel.demokritos.gr</a>
+                    <icon class="glyphicon glyphicon-globe"></icon> Website: <a href="http://divanicaravelhotel.com/en/">http://divanicaravelhotel.com/en/</a>
                 </p>
             </div>
             <h2>Venue Info</h2>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>EUROSOI - ULIS 2017 | Athens, 3-5 April 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>

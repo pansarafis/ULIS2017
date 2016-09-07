@@ -29,8 +29,8 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Venue<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="venue.php">Venue</a></li>
-                    <li><a href="#">Accommodation</a></li>
-                    <li><a href="#">Travel</a></li>
+                    <li><a href="Accommodation.php">Accommodation</a></li>
+                    <li><a href="Travel.php">Travel Info</a></li>
                     <li><a href="AboutAthens.php">About Athens</a></li>
                 </ul>
             </li>

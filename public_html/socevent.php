@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Social Events | EUROSOI - ULIS 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>
