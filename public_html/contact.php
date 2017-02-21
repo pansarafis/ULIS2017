@@ -30,7 +30,7 @@
                     <icon class="glyphicon glyphicon-home"></icon> Institute on Nanoscience and Nanotecnology, NCSR "Demokritos", Ag. Parasvevi, 15310, Athens - Greece <br>
                     <icon class="glyphicon glyphicon-phone-alt"></icon> Tel: +30 210 650 3411<br>
                     <icon class="glyphicon glyphicon-print"></icon> Fax: +30 210 650 3411<br>
-                    <icon class="glyphicon glyphicon-envelope"></icon> E-mail: <a href="mailto:a.nasiopoulou@inn.demokritos.gr">a.nasiopoulou@inn.demokritos.gr</a><br>
+                    <icon class="glyphicon glyphicon-envelope"></icon> E-mail: <a href="mailto:a.nassiopoulou@inn.demokritos.gr">a.nassiopoulou@inn.demokritos.gr</a><br>
                     <icon class="glyphicon glyphicon-globe"></icon> Website: <a href="http://nano4nps.imel.demokritos.gr">http://nano4nps.imel.demokritos.gr</a>
                 </p>  
             </div>

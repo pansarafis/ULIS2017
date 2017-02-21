@@ -1,9 +1,7 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Plenary Talks | EUROSOI - ULIS 2017</title>
+    <title>Conference Program | EUROSOI - ULIS 2017</title>
     <?php include 'header.php'?>
 </head>
 <body>
@@ -21,12 +19,15 @@
             <img alt="background IC" src="images/chipgrey.png" />
         </div>
         
+
         <div class="col-sm-12 mainContainer">
-            <h2>Plenary Talks</h2>
-            <p>Plenary talks will be announced soon!</p>
+            <h2>Conference Program</h2>
+            
+            <p>A preliminary version of the conference program has been announced and it is available <a href="files/PROGRAM_EUROSOI_ULIS_2017_2.pdf">here</a></p>
+            <p>Minor changes may occur, so please check the website regularly.</p>
+
+            
         </div>
-           
-       
     </div>
     
     <div class="footer row">

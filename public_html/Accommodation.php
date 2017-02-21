@@ -20,11 +20,16 @@
         </div>
 
         <div class="col-sm-12 mainContainer ">
-            <h2>Accomodation Info</h2>
+            <h2>Accomodation in the Conference Venue</h2>
                           
-            <p>There will be a special rate from the Divani Caravel Hotel for the participants of the conference. 
-                Please mention your participation when you book a room in order to take advantage of the special rate.</p>          
+            <p>There will be a special rate from the Divani Caravel Hotel for the participants of the conference. This rate  is 130€ for Single Superior Room and 260€ for Twin Superior Room. 
+                Please mention your participation when you book a room in order to take advantage of the special rate. </p>
+                
+            <p style="text-align:center;"> <span style="font-size: 20px;">Online booking is available through <a href="https://divanicaravel.reserve-online.net/?bkcode=EuroSOI2017&adults=1">this link</a></span><br>
+                A detailed description of the steps can be found <a href="files\Booking_Code _EuroSoi_2017.pdf">here</a>.<br>
+            </p>          
            
+            <h3>Nearby Accomodation Facilities</h3>
             <p>Several other hotels are located around the venue, with a wide price range. 
                 The regions around Syntagma Sq. and Acropolis are full of high-quality hotels. 
                 The map below shows some of the hotels that are located around the Conference Venue.

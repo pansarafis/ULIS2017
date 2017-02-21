@@ -68,6 +68,13 @@
                     <li>Luca Selmi (University of Udine, Italy)</li>
                     <li>Elena Gnanii (Univ. of Bologna, Italy)</li>
                 </ul>
+                
+                <h3>Local Organizing Committee</h3>
+                <ul>
+                    <li>Emmanuel Hourdakis (NCSR Demokritos, Greece)</li>
+                    <li>Panagiotis Sarafis (NCSR Demokritos, Greece)</li>
+                    <li>Katerina Valalaki (NCSR Demokritos, Greece)</li>
+                </ul>
             </div>
             
            

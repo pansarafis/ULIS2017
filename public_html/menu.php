@@ -17,8 +17,8 @@
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Information<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="plenary.php">Plenary Talks</a></li>
-                    <!--<li><a href="#">Conference Program</a></li>-->
+                    <li><a href="invited.php">Invited Speakers</a></li>
+                    <li><a href="program.php">Conference Program</a></li>
                     <li><a href="socevent.php">Social events</a></li>
                     <li><a href="committees.php">Committee</a></li>
                     <li><a href="SinanoAward.php">SINANO Award</a></li>
